@@ -14,9 +14,9 @@ def formResponse(statusCode, body):
 def main(dict):
     secret = {
         "COUCH_URL":
-        "https://apikey-v2-1lkvo61rbrqx9yqgvt8phug8ptydgdrvf9m0q33dckvr:6ee96cedb087a7d028c7858ef4139e3e@f2cb1833-365f-4d05-8280-091f36c31b08-bluemix.cloudantnosqldb.appdomain.cloud",
-        "COUCH_USERNAME": "apikey-v2-1lkvo61rbrqx9yqgvt8phug8ptydgdrvf9m0q33dckvr",
-        "IAM_API_KEY": "M660UwbS89aSIAftfM2Hr_-Lzu9fDXESFnTW8WHsFvA9"
+        "https://apikey-v2-2cyywmxlsaahl54fgbjm13d9xih7m61lg3ce16n5m9zd:2ebb1cd25e6d93cb8547ffe3f45fd6d4@21e59688-0d81-4ced-aee6-ffaddc42b6e7-bluemix.cloudantnosqldb.appdomain.cloud",
+        "COUCH_USERNAME": "apikey-v2-2cyywmxlsaahl54fgbjm13d9xih7m61lg3ce16n5m9zd",
+        "IAM_API_KEY": "422oU7w-BuGlBjsnxjwFyGYVIuXebrPhdjWIWVfyAwBw"
     }
     authenticator = IAMAuthenticator(
         secret["IAM_API_KEY"])
